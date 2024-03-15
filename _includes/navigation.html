@@ -15,6 +15,22 @@
   {% else %}
   <li><a href="/etna_gem.html">Client Gem</a></li>
   {% endif %}
+  <li class="header">Guides</li>
+  {% if page.url == "/modeling.html" %}
+  <li class="active">Modeling</li>
+  {% else %}
+  <li><a href="/modeling.html">Modeling</a></li>
+  {% endif %}
+  {% if page.url == "/naming.html" %}
+  <li class="active">Naming</li>
+  {% else %}
+  <li><a href="/naming.html">Naming</a></li>
+  {% endif %}
+  {% if page.url == "/linking.html" %}
+  <li class="active">Linking</li>
+  {% else %}
+  <li><a href="/linking.html">Linking</a></li>
+  {% endif %}
 
   <li class="header">Etna Applications</li>
   {% for node in site.pages %}

@@ -10,26 +10,49 @@
   {% else %}
   <li><a href="/etna.html">Framework</a></li>
   {% endif %}
+
   {% if page.url == "/etna_gem.html" %}
   <li class="active">Client Gem</li>
   {% else %}
   <li><a href="/etna_gem.html">Client Gem</a></li>
   {% endif %}
+
   <li class="header">Guides</li>
+
+  {% if page.url == "/access.html" %}
+  <li class="active">User Access</li>
+  {% else %}
+  <li><a href="/access.html">User Access</a></li>
+  {% endif %}
+
   {% if page.url == "/modeling.html" %}
   <li class="active">Modeling</li>
   {% else %}
   <li><a href="/modeling.html">Modeling</a></li>
   {% endif %}
+
   {% if page.url == "/naming.html" %}
   <li class="active">Naming</li>
   {% else %}
   <li><a href="/naming.html">Naming</a></li>
   {% endif %}
+
+  {% if page.url == "/ingestion.html" %}
+  <li class="active">Ingestion</li>
+  {% else %}
+  <li><a href="/ingestion.html">Ingestion</a></li>
+  {% endif %}
+
   {% if page.url == "/linking.html" %}
   <li class="active">Linking</li>
   {% else %}
   <li><a href="/linking.html">Linking</a></li>
+  {% endif %}
+
+  {% if page.url == "/analysis.html" %}
+  <li class="active">Analysis</li>
+  {% else %}
+  <li><a href="/analysis.html">Analysis</a></li>
   {% endif %}
 
   <li class="header">Etna Applications</li>
